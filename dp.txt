@@ -1,7 +1,1 @@
-import dropbox
- 
-dbx = dropbox.Dropbox('sl.BqQJotxa4GSrpXyuQm2tWqdVvxhfUi9X3KHM-Bm4ayUoVlcIkpubc_l8v-K6Z4JIkbCRyMxoE6xip1sKmIwFG9VXnSUvIXTxIxj2htCsfl62pvkMfvur9MZGACDolwOTJjDstr4sWqmb') # наш access token
- 
-with open('1.png','rb') as file: # открываем файл в режиме чтение побайтово
-    response = dbx.files_upload(file.read(),'/1.png') # загружаем файл: первый аргумент (file.read()) - какой файл; второй - название, которое будет присвоено файлу уже на дропбоксе.
-    print(response) # выводим результат загрузки
+СЂСѓСЃСЃРєРёР№
